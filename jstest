@@ -39,14 +39,13 @@ function listNFTs () {
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
-    console.log("\n" + NFTs.length);
+    console.log("\nTotal number of NFTs:" + NFTs.length);
 }
 
 // call your functions below this line
 mintNFT("Bob", "Blue", "Hoodie", "GoldChain");
-mintNFT("Sue", "Blue", "Hoodie", "GoldChain");
-mintNFT("Tim", "Blue", "Hoodie", "GoldChain");
-mintNFT("Jogn", "Blue", "Hoodie", "GoldChain");
+mintNFT("Sue", "White", "Tshirt", "SilverChain");
+mintNFT("Tim", "BLack", "Zipper", "GoldChain");
+mintNFT("Jogn", "Grey", "Sweatshirt", "SilverChain");
 listNFTs();
 getTotalSupply();
-
